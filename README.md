@@ -133,6 +133,6 @@ New-NetFirewallRule -DisplayName "FileBrowser (Tailscale Only)" -Direction Inbou
     - Test Jane Doe's privileges:
         - View: Open the example document that was previously added on the host PC
         - Upload: Drag-and-drop a new file from the remote device into the file server
-        - Download: Click a file to download it to the remote device.
-    
+        - Download: Click a file to download it to the remote device
+    <br>
     <img src="/images/access-server-remotely.png" alt="Access Server Remotely">
