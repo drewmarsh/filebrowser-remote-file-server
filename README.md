@@ -51,7 +51,7 @@ A secure, self-hosted file server using Tailscale (zero-trust VPN) and FileBrows
 
         - Tick: ✅`Run whether user is logged on or not`
 
-        - Tick: `Run with highest privileges`
+        - Tick: ✅`Run with highest privileges`
 
     - **Triggers Tab:**
 
@@ -103,12 +103,12 @@ New-NetFirewallRule -DisplayName "FileBrowser (Tailscale Only)" -Direction Inbou
 4. Add a second user:
     - Username: jane.doe
     - Password: Brevvt15!
-    - Untick Administrator
-    - Untick Delete files and directories
+    - Untick ⬜Administrator
+    - Untick ⬜Delete files and directories
 
 <img src="/images/jane-doe.png" alt="Jane Doe">
 
-5. Drag and example document into the `My Files` tab
+5. Drag an example document into the `My Files` tab
 
 <img src="/images/example-document.png" alt="Example Document">
 
