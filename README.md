@@ -57,8 +57,6 @@ A secure, self-hosted file server using Tailscale (zero-trust VPN) and FileBrows
 
         - Click `New…`, select `At startup` (delayed by 1 seconds if needed), and click `OK`
 
-          *Note: In order for this to work, this task must be ran after Tailscale is initialized and connecting (hence the 1 minute delay)*
-
     - **Actions Tab:**
 
         - Action: "Start a program"
@@ -69,6 +67,8 @@ A secure, self-hosted file server using Tailscale (zero-trust VPN) and FileBrows
             ```cmd
             /c "cd /d C:\Program Files\filebrowser && filebrowser --config filebrowser.json"
             ```
+> [!IMPORTANT]
+> In order for this to work, this task must be ran after Tailscale is initialized and connecting (hence the 1 minute delay)
 
 <img src="/images/scheduled-task.png" alt="Scheduled Task">
 
