@@ -55,7 +55,9 @@ A secure, self-hosted file server using Tailscale (zero-trust VPN) and FileBrows
 
     - **Triggers Tab:**
 
-        - Click `New…`, select `At startup` (delayed by 30 seconds if needed), and click `OK`
+        - Click `New…`, select `At startup` (delayed by 1 seconds if needed), and click `OK`
+
+          *Note: In order for this to work, this task must be ran after Tailscale is initialized and connecting (hence the 1 minute delay)*
 
     - **Actions Tab:**
 
